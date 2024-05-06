@@ -1,0 +1,259 @@
+{
+	"workbench.colorTheme": "Alex's Dark Theme",
+
+	"[python]": {
+		"editor.formatOnType": true
+	},
+
+	"editor.tabSize": 2,
+
+	"editor.insertSpaces": false,
+
+	"editor.detectIndentation": false,
+
+	"terminal.integrated.cursorStyle": "line",
+
+	"terminal.integrated.profiles.windows": {
+		"PowerShell": {
+			"source": "PowerShell",
+
+			"icon": "terminal-powershell"
+		},
+
+		"Command Prompt": {
+			"path": [
+				"${env:windir}Sysnativecmd.exe",
+
+				"${env:windir}\\System32\\cmd.exe"
+			],
+
+			"args": [],
+
+			"icon": "terminal-cmd"
+		},
+
+		"Git Bash": {
+			"source": "Git Bash"
+		}
+	},
+
+	"editor.quickSuggestions": {
+		"other": true,
+
+		"comments": true,
+
+		"strings": true
+	},
+
+	"editor.acceptSuggestionOnCommitCharacter": false,
+
+	"editor.linkedEditing": true,
+
+	"editor.mouseWheelZoom": true,
+
+	"editor.fontFamily": "FiraCode Nerd Font Mono",
+
+	"editor.fontLigatures": true,
+
+	"remote.SSH.remotePlatform": {
+		"10.50.99.81": "linux"
+	},
+
+	"git.enableSmartCommit": true,
+
+	"git.autofetch": true,
+
+	"git.confirmSync": false,
+
+	"[csharp]": {
+		"editor.maxTokenizationLineLength": 2500,
+
+		"editor.defaultFormatter": "ms-dotnettools.csharp"
+	},
+
+	"security.workspace.trust.untrustedFiles": "open",
+
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+
+	"launch": {
+		"configurations": []
+	},
+
+	"editor.acceptSuggestionOnEnter": "off",
+
+	"workbench.iconTheme": "material-icon-theme",
+
+	"editor.inlineSuggest.enabled": true,
+
+	"editor.cursorSmoothCaretAnimation": "on",
+
+	"editor.smoothScrolling": true,
+
+	"workbench.list.smoothScrolling": true,
+
+	"terminal.integrated.smoothScrolling": true,
+
+	"javascript.updateImportsOnFileMove.enabled": "always",
+
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+
+	"vsicons.dontShowNewVersionMessage": true,
+
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+
+	"prettier.endOfLine": "auto",
+
+	"prettier.jsxSingleQuote": true,
+
+	"prettier.singleAttributePerLine": true,
+
+	"prettier.singleQuote": true,
+
+	"prettier.useTabs": true,
+
+	"workbench.editorAssociations": {
+		"*.db": "default"
+	},
+
+	"github.copilot.advanced": {},
+
+	"github.copilot.enable": {
+		"*": true,
+
+		"plaintext": false,
+
+		"markdown": true,
+
+		"scminput": false
+	},
+
+	"terminal.integrated.defaultProfile.linux": "bash",
+
+	"terminal.external.linuxExec": "bash",
+
+	"typescript.updateImportsOnFileMove.enabled": "always",
+
+	"editor.formatOnSave": true,
+
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+
+	"python.formatting.provider": "black",
+
+	"settingsSync.ignoredExtensions": [
+		"eliverlara.andromeda",
+
+		"saekiraku.rainbow-fart",
+
+		"xaver.clang-format",
+
+		"ironmansoftware.powershellprotools",
+
+		"donjayamanne.python-extension-pack"
+	],
+
+	"settingsSync.ignoredSettings": [],
+
+	"workbench.settings.applyToAllProfiles": [
+		"workbench.colorTheme",
+
+		"workbench.preferredDarkColorTheme",
+
+		"editor.wordWrap",
+
+		"editor.cursorBlinking",
+
+		"files.autoSave",
+
+		"terminal.integrated.gpuAcceleration",
+
+		"editor.fontSize",
+
+		"editor.fontFamily",
+
+		"workbench.activityBar.location"
+	],
+
+	"workbench.preferredDarkColorTheme": "Alex's Dark Theme",
+
+	"editor.wordWrap": "on",
+
+	"editor.cursorBlinking": "phase",
+
+	"files.autoSave": "onFocusChange",
+
+	"terminal.integrated.gpuAcceleration": "on",
+
+	"security.allowedUNCHosts": ["wsl.localhost"],
+
+	"dotnet.inlayHints.enableInlayHintsForParameters": true,
+
+	"dotnet.inlayHints.enableInlayHintsForLiteralParameters": true,
+
+	"dotnet.inlayHints.enableInlayHintsForIndexerParameters": true,
+
+	"dotnet.inlayHints.enableInlayHintsForObjectCreationParameters": true,
+
+	"dotnet.inlayHints.enableInlayHintsForOtherParameters": true,
+
+	"dotnet.unitTestDebuggingOptions": {},
+
+	"workbench.activityBar.location": "top",
+
+	"editor.cursorSurroundingLinesStyle": "all",
+
+	"git.openRepositoryInParentFolders": "always",
+
+	"workbench.productIconTheme": "bongocat",
+
+	"powermode.enabled": false,
+
+	"cSpell.userWords": ["biohackerellie", "nuqs", "trpc"],
+
+	"background.fullscreen": {
+		"images": [
+			"https://cdn.wallpapersafari.com/71/14/Hr7ZQj.jpg",
+
+			"https://wallpapercave.com/wp/wp6952566.jpg",
+
+			"https://w.wallhaven.cc/full/7p/wallhaven-7p3z53.png",
+
+			"https://wallpapercave.com/wp/wp6051017.jpg"
+		], // urls of your images
+
+		"opacity": 0.92, // 0.85 ~ 0.95 recommended
+
+		"size": "cover", // also css, `cover` to self-adaption (recommended)，or `contain`、`200px 200px`
+
+		"useFront": false,
+
+		"position": "center", // alias to `background-position`, default `center`
+
+		"interval": 600 // seconds of interval for carousel, default `0` to disabled.
+	},
+
+	"tailwindCSS.includeLanguages": {
+		"html": "html",
+
+		"javascript": "javascript",
+
+		"typescript": "typescriptreact",
+
+		"typescriptreact": "typescriptreact",
+
+		"css": "css"
+	}
+}
