@@ -1,6 +1,6 @@
 [package]
-name = "variables"
-version = "2.3.4"
+name = "b_functions"
+version = "0.1.0"
 edition = "2021"
 
 [dependencies]

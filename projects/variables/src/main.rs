@@ -1,11 +1,12 @@
-fn main() {
-  let x = 5;
-  let x = x + 1;
+const STARTING_MISSLES: i32 = 8;
+const READY_AMOUNT: i32 = 2;
 
-  {
-    let x = x * 2;
-    println!("the value of x in the inner scope is: {x}")
-  }
-  
-  println!("the value of x is: {x}")
+fn main() {
+    let (mut missles, ready) = (STARTING_MISSLES, READY_AMOUNT);
+
+    println!("Firing {} of my {} missles...", ready, missles);
+
+    missles = missles - ready;
+
+    println!("{} missles left", missles)
 }
