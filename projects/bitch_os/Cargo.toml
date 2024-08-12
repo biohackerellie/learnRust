@@ -1,0 +1,16 @@
+[package]
+name = "bitch_os"
+version = "0.1.0"
+edition = "2021"
+authors = ["Ellie Kerns <ellie@epklabs.com>"]
+
+
+[dependencies]
+bootloader = "0.9.8"
+
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
