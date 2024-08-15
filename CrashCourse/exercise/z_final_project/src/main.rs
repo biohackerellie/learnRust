@@ -95,24 +95,24 @@ fn print_usage_and_exit() {
 }
 
 fn blur(infile: String, outfile: String) {
-    // Here's how you open an existing image file
     let img = image::open(infile).expect("Failed to open INFILE.");
-    // **OPTION**
-    // Parse the blur amount (an f32) from the command-line and pass it through
-    // to this function, instead of hard-coding it to 2.0.
     let img2 = img.blur(2.0);
-    // Here's how you save an image to a file.
     img2.save(outfile).expect("Failed writing OUTFILE.");
 }
 
 fn brighten(infile: String, outfile: String) {
-    // See blur() for an example of how to open / save an image.
-
+    let img = image::open(infile).expect("Failed to open INFILE");
     // .brighten() takes one argument, an i32.  Positive numbers brighten the
     // image. Negative numbers darken it.  It returns a new image.
-
     // Challenge: parse the brightness amount from the command-line and pass it
     // through to this function.
+
+    let mut amount = 10;
+    // get user input for amount
+    println!("Enter the amount to brighten the image by (default 10): ");
+    let input = std::io::stdin();
+    input.read_line(&mut amount).expect("Failed to read input");
+    let img2 = img.brighten(amount);
 }
 
 fn crop(infile: String, outfile: String) {
